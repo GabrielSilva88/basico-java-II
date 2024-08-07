@@ -16,6 +16,21 @@ public class Calculadora {
 		System.out.println("Escolha a Operação, Somar (+), Subtrair (-), Multiplicar (*), Dividir (/): ");
 		String operacao = scan.next();
 
+		if (operacao == "+") {
+			System.out.println(numUm + numDois);
+		}else if (operacao == "-") {
+			System.out.println(numUm - numDois);
+		}else if (operacao == "*") {	
+			System.out.println(numUm * numDois);
+		}else if (operacao == "/") {
+			System.out.println(numUm / numDois);
+		}else {
+			System.out.println("Não e uma operação.");
+		}
+
+		
+	/*		
+		OPEÇÃO COM EXESSO DE CODIGO ENCHUGANDO UTILIZANDO SWITCH
 		switch (operacao) {
 		case "+": {
 			if (operacao.equals("+")) {
@@ -56,20 +71,6 @@ public class Calculadora {
 		}
 		
 		
-	/*		int numUm, numDois;
-			char operacao;
-			
-		if (operacao == "+") {
-			System.out.println(numUm + numDois);
-		}else if (operacao == "-") {
-			System.out.println(numUm - numDois);
-		}else if (operacao == "*") {	
-			System.out.println(numUm * numDois);
-		}else if (operacao == "/") {
-			System.out.println(numUm / numDois);
-		}else {
-			System.out.println("Não e uma operação.");
-		}
 	*/
 	}
 }
