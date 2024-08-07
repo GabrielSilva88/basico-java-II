@@ -15,14 +15,18 @@ public class VogalConsoante {
 		System.out.println("Digite a letra, agora: ");
 		String letra = scan.nextLine();
 
-		if (letra.equalsIgnoreCase("a") || letra.equalsIgnoreCase("e") || letra.equalsIgnoreCase("i")
-				|| letra.equalsIgnoreCase("o") || letra.equalsIgnoreCase("u")) {
+		if ("a".equalsIgnoreCase(letra) || "e".equalsIgnoreCase(letra) || "i".equalsIgnoreCase(letra)
+				|| "o".equalsIgnoreCase(letra) || "u".equalsIgnoreCase(letra)) {
 			System.out.println(letra + " é uma vogal");
 		} else {
 			System.out.println(letra + " é uma Consoante");
 		}
 
 		/*
+		 * 
+		 * 	if(letra.equalsIgnoreCase("a") || letra.equalsIgnoreCase("e") || letra.equalsIgnoreCase("i")
+				|| letra.equalsIgnoreCase("o") || letra.equalsIgnoreCase("u")){
+				}
 		 * não funciona com .equals ou equalsIgnoreCase switch (letra) { case
 		 * "a, "e", "i", "o", "u" : {
 		 * 
