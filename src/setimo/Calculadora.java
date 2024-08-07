@@ -1,3 +1,8 @@
+/*		Escreva um programa que leia dois números inteiros
+ *  	e um operador aritmético (+, -, *, /) e realize a operação correspondente. 
+ *	 	Se o operador não for válido, mostre uma mensagem de erro.
+ */
+
 package setimo;
 
 import java.util.Scanner;
