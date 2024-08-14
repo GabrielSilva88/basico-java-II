@@ -32,10 +32,4 @@ public class MesTrintaTrintaUm {
 	}
 }
 
-/*
- * outra opção de verificação, mes impar ou par - não funciona!
- * 
- * if (mes % 2 != 0) { System.out.println("Mês informado, possui 31 dias"); }
- * else { System.out.println("Mês informado, possui 30 dias ou menos"); }
- * 
- */
+
