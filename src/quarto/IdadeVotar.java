@@ -13,9 +13,9 @@ public class IdadeVotar {
 		System.out.println("Digite sua idade: ");
 		int idade = scan.nextInt();
 
-		if (idade >= 18 || idade >= 70) {
-			System.out.println("No Brasil, pode votar o voto é obrigatório na sua idade.");
-		} else if (idade< 15 && idade < 18 || idade > 70) {
+		if (idade >= 18 && idade <= 70) {
+			System.out.println("No Brasil, o voto é obrigatório na sua idade.");
+		} else if (idade > 15 && idade < 18 || idade > 70) {
 			System.out.println("No Brasil, o voto é facultativo para sua idade.");
 		}else {
 			System.out.println("No Brasil, não pode votar");
